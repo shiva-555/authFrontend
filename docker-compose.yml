@@ -1,0 +1,7 @@
+version: '3.8'  # Use the latest version compatible with your Docker setup
+
+services:
+  web:
+    image: "shiva6275/auth-frontend:latest"
+    ports:
+      - "3000:3000"  # Expose port 3000 on the host
